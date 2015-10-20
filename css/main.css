@@ -1,6 +1,9 @@
-.jumbotron {
-	text-align: center;
-	background-color: #F5DFB3;
+html, body, .container-fluid, .row {
+	height: 100%;
+}
+
+.container-fluid {
+	overflow: hidden;
 }
 
 body {
@@ -9,7 +12,14 @@ body {
 
 .sidebar {
 	background-color: #8FBC8E;
+	position: relative;
+	height: 100%;
 	font-weight: bold;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: #F5DFB3;
 }
 
 .sidebar h3 {
@@ -22,4 +32,8 @@ body {
 
 ol {
 	display: inline-block;
+}
+
+#pingPongButton {
+	background-color: #B6BFC5;
 }
