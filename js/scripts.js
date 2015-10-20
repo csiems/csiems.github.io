@@ -9,7 +9,7 @@ $(document).ready(function() {
 		for(var i = 1; i <= pingPongNumber; i++) {
 
             if (i % 3 === 0 && i % 5 === 0) {
-                $("#bucket").append("<li>ping-pong</li>");
+                $("#bucket").append("<li>pingpong</li>");
             } else if (i % 3 === 0) {
                 $("#bucket").append("<li>ping</li>");
             } else if (i % 5 === 0) {
