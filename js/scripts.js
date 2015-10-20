@@ -9,13 +9,13 @@ $(document).ready(function() {
 		for(var i = 1; i <= pingPongNumber; i++) {
 
             if (i % 3 === 0 && i % 5 === 0) {
-                $("#bucket").append("ping-pong<br>");
+                $("#bucket").append("<li>ping-pong</li>");
             } else if (i % 3 === 0) {
-                $("#bucket").append("ping<br>");
+                $("#bucket").append("<li>ping</li>");
             } else if (i % 5 === 0) {
-                $("#bucket").append("pong<br>");
+                $("#bucket").append("<li>pong</li>");
             } else {
-                $("#bucket").append(i + "<br>");
+                $("#bucket").append("<li>" + i + "</li>");
             }
 
         }
