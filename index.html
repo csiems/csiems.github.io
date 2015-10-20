@@ -3,15 +3,15 @@
 <head>
 	<title>Christopher Siems' Level 2 Placement Test</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/mystyles.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale-1">
 </head>
 <body>
-	<header>
+	<header class="jumbotron">
 		<h1>Ping-Pong</h1>
 	</header>
 
-	<div class="sidebar">
+	<div class="sidebar pull-left col-sm-4">
 		<h2>About Ping-Pong</h2>
 		    <h3>Created By:</h3>
 		    	<p>Christopher Siems</p>
@@ -21,7 +21,7 @@
 		    	<p>Ruby</p>      
 	</div>
 
-	<div class="main-content">
+	<div class="main-content col-sm-8">
 		<h2>Let's Play!</h2>
 		<h3>Rules</h3>
 		<p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
@@ -31,7 +31,7 @@
 			<li>Numbers divisible by 3 and 5 become "pingpong"</li>
 		</ol>
 		<form>
-			<label>Enter your number here:</label>
+			<label for="numberEntry">Enter your number here:</label>
 			<input type="text" id="pingPongInput">
 			<input type="submit" id="pingPongButton" class="btn btn-default" value="Ping Pong!">
 		</form>

@@ -1,0 +1,25 @@
+.jumbotron {
+	text-align: center;
+	background-color: #F5DFB3;
+}
+
+body {
+	background-color: #e6e6e6;
+}
+
+.sidebar {
+	background-color: #8FBC8E;
+	font-weight: bold;
+}
+
+.sidebar h3 {
+	color: #F5DFB3
+}
+
+.sidebar p {
+	color: #fff;
+}
+
+ol {
+	display: inline-block;
+}
