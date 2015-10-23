@@ -2,10 +2,6 @@ html, body, .container-fluid, .row {
 	height: 100%;
 }
 
-.container-fluid {
-	overflow: hidden;
-}
-
 body {
 	background-color: #e6e6e6;
 }
