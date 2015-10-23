@@ -15,7 +15,11 @@ describe('pingPongIt', function() {
     expect(pingPongIt(7)).to.equal(7);
   });
 
-  it("will terminate if number is less than 1", function() {
+  it("will terminate/return nothing if number is less than 1", function() {
+    expect(pingPongIt(-3)).to.equal();
+  });
+
+  it("will terminate/return nothing if number is 0", function() {
     expect(pingPongIt(0)).to.equal();
   });
 });
