@@ -1,5 +1,39 @@
+/****************************
+GENERAL
+*****************************/
+
 html, body, .container-fluid, .row {
 	height: 100%;
+}
+
+ol {
+	display: inline-block;
+}
+
+/****************************
+HEADING
+*****************************/
+
+.jumbotron {
+	text-align: center;
+}
+
+/****************************
+SIDEBAR
+*****************************/
+
+.sidebar {
+	position: relative;
+	height: 100%;
+	font-weight: bold;
+}
+
+/****************************
+COLORS
+*****************************/
+
+.jumbotron {
+	background-color: #f5dfb3;
 }
 
 body {
@@ -7,29 +41,17 @@ body {
 }
 
 .sidebar {
-	background-color: #8FBC8E;
-	position: relative;
-	height: 100%;
-	font-weight: bold;
-}
-
-.jumbotron {
-	text-align: center;
-	background-color: #F5DFB3;
+	background-color: #8fbc8e;	
 }
 
 .sidebar h3 {
-	color: #F5DFB3;
+	color: #f5dfb3;
 }
 
 .sidebar p {
 	color: #fff;
 }
 
-ol {
-	display: inline-block;
-}
-
 #pingPongButton {
-	background-color: #B6BFC5;
+	background-color: #b7b7b7;
 }
